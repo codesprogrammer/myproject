@@ -8,3 +8,59 @@ body{
 h1{
     color: darkblue;
 }
+
+body{
+    margin:0;
+    front-familiy:Arial;
+    background:#0f0f0f;
+    color:white;
+}
+ 
+header{
+    text-align:center;
+    padding:60px;
+    background:linear-gradient(black,purple);
+}
+
+button{
+    padding:12px 25px;
+    border:none;
+    background:purple;
+    color:white;
+    front-size:18px;
+    border-radius:10ox;
+}
+
+.games{
+    display:flex;
+    justify-conent:center;
+    gap:20px;
+    padding:40px;
+    flex-wrap:wrap;
+}
+
+.card{
+    background:#1e1e1e;
+    padding:20px;
+    width:250;
+    border-radius:15;
+    box-shadow:0 0 10px purple;
+}
+
+nav{
+    background:#111;
+    padding:20px;
+}
+
+nav a{
+    color:white;
+    margin:15px;
+    text-decoration:none;
+    front-size:20px;
+}
+
+body{
+
+    background:ur1("https://image.unsplash.com/photo-1542751371 -adc38448a05e");
+    background-size:cover;
+}
